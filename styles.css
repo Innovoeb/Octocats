@@ -1,0 +1,64 @@
+
+/* ????? */
+.octocat {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align content: wrap;
+  flex-direction: row;
+}
+/* image margin */
+.octocat > a {
+  margin: 7px;
+}
+
+
+
+/* ?????? */
+.octodex {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+/* ?????? */
+.image-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+
+}
+/* image numbers */
+.image-number {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row-reverse;
+  align-items: flex-start;
+}
+
+
+/* inline footers */
+.octocat > a img {
+  width:300px;
+
+}
+/* author's images */
+.authors img {
+  width:30px;
+
+}
+/* image borders */
+.octocat img {
+  border: 1px solid lightgrey;
+}
+
+/* image footer */
+.image-caption {
+  position: relative;
+  left: 150px;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  order: 1;
+  align-self: flex-end;
+
+}
